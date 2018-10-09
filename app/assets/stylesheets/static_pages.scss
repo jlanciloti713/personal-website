@@ -1,3 +1,14 @@
+/*font-family: 'Kodchasan', sans-serif;*/
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kodchasan', sans-serif;
+}
+
 ul {
     text-align: center;
     list-style: none
@@ -5,32 +16,33 @@ ul {
 
 li {
     display: inline-block;
-    margin: 0px 80px;
+    margin: 5px;
+    width:30%;
 
 }
 
-a {
+ul a {
     text-decoration: none;
     background-color: lightgray;
     padding: 5px;
 }
 
-a:link{
+ul a:link{
 
     color:black;
 }
 
-a:active {
+ul a:active {
 
     color: black;
 }
 
-a:visited {
+ul a:visited {
     color: black;
 }
 
 
-a:hover {
+ul a:hover {
     background-color: gray;
     color: lightblue;
     transition-duration: 400ms;
@@ -42,6 +54,7 @@ a:hover {
     text-align: center;
     background-color:lightblue;
     width: 100%;
+    margin: 0;
 }
 
 
@@ -57,12 +70,12 @@ a:hover {
 .page-header2 {
     margin-left: 25.4px;
     margin-top: 50px;
-    margin-right:1268px;
+    margin-right:1279px;
     padding: 10px ;
     border: dashed;
     border-bottom:none;
     font-style:italic;
-    margin-bottom:-12px;
+    margin-bottom:3px;
 }
 
 #page-info {
@@ -97,8 +110,7 @@ a:hover {
 
 
 #schoolgirl-satan {
-    display: block;
-    margin-left: -15px;
+    margin-left: 25px;
     width: 9%;
     border:dashed;
     border-top:none;
@@ -111,6 +123,7 @@ a:hover {
     border-width: 2px;
     border-color:gray;
     background: black;
+    float:right;
 }
 
 #phone-number {
@@ -119,5 +132,4 @@ color: black;
 background: white;
 font-style: bold;
 font-size:15px;
-
 }

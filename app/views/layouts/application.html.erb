@@ -4,20 +4,15 @@
     <title>PersonalWebside</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
 
-    <span><h1 id="my-name">Jack Lanciloti</h1></span>
-
-    <ul>
-        <li><%= link_to("About Me", "/about") %></li>
-        <li><%= link_to("Contact Jack", "/contact") %></li>
-        <li><%= link_to("My Portfolio", "/portfolio") %></li>
-    </ul>
+    <%= render "layouts/header" %>
     
     <%= yield %>
   </body>
